@@ -27,6 +27,18 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<scm>
+		<connection>scm:git:ssh://github.com/fcrespel/sonar-pagedecoration-plugin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/fcrespel/sonar-pagedecoration-plugin.git</developerConnection>
+		<url>https://github.com/fcrespel/sonar-pagedecoration-plugin</url>
+	</scm>
+	<developers>
+		<developer>
+			<id>fcrespel</id>
+			<name>Fabien Crespel</name>
+			<email>fabien@crespel.net</email>
+		</developer>
+	</developers>
 
 	<properties>
 		<sonar.version>3.6</sonar.version>
