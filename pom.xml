@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>sonar-pagedecoration-plugin</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>sonar-plugin</packaging>
 
 	<name>Sonar Page Decoration Plugin</name>
@@ -30,7 +30,7 @@
 		<connection>scm:git:ssh://github.com/fcrespel/sonar-pagedecoration-plugin.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/fcrespel/sonar-pagedecoration-plugin.git</developerConnection>
 		<url>https://github.com/fcrespel/sonar-pagedecoration-plugin</url>
-	  <tag>sonar-pagedecoration-plugin-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<developers>
 		<developer>
