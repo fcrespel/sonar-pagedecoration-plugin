@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>org.codehaus.sonar-plugins</groupId>
 		<artifactId>parent</artifactId>
-		<version>17</version>
+		<version>18</version>
 	</parent>
 
 	<artifactId>sonar-pagedecoration-plugin</artifactId>
@@ -30,8 +31,8 @@
 		<connection>scm:git:ssh://github.com/fcrespel/sonar-pagedecoration-plugin.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/fcrespel/sonar-pagedecoration-plugin.git</developerConnection>
 		<url>https://github.com/fcrespel/sonar-pagedecoration-plugin</url>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
 	<developers>
 		<developer>
 			<id>fcrespel</id>
@@ -41,7 +42,7 @@
 	</developers>
 
 	<properties>
-		<sonar.version>3.6</sonar.version>
+		<sonar.version>3.7</sonar.version>
 		<sonar.pluginName>Page Decoration</sonar.pluginName>
 		<sonar.pluginClass>org.sonar.plugins.pagedecoration.PageDecorationPlugin</sonar.pluginClass>
 	</properties>
